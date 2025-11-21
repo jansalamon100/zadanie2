@@ -1,0 +1,381 @@
+@media (max-width: 768px) {
+
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  
+  .link,
+  .link1,
+  .rectangle,
+  .rectangle1,
+  .rectangle6 {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    height: auto;
+    position: static;
+  }
+
+  .text, .text1 { font-size: 14px; }
+
+  .cold, .dpd, .phone, .mail { display: none; }
+
+  .logo, .base, .search, .acc, .shop {
+    position: static;
+    transform: none;
+    margin: 5px;
+    height: 24px;
+    width: auto;
+  }
+
+  .logo {
+    display: block;
+    margin: 15px auto;
+    order: -1;
+  }
+
+  .thin-center {
+    width: 90%;
+    margin: 10px auto;
+    margin-top: 0;
+  }
+
+  
+  .nav__list {
+    display: flex;
+    margin: 10px 0;
+    padding: 0 5%;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-x: visible;
+    gap: 10px 10px;
+    width: 100%;
+  }
+
+  
+  .big, .prom, .dirt {
+    position: static;
+    transform: none;
+    margin: 10px auto;
+    width: 95%;
+    height: auto;
+    display: block;
+  }
+
+  
+  .info-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin-top: 30px;
+    width: 95%;
+    height: auto;
+    position: static;
+  }
+
+  .info-desc { max-width: 100%; }
+
+  
+  .products-grid,
+  .grid-products {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    width: 95%;
+    margin: 20px auto;
+  }
+
+  .section-all, .section-main {
+      height: auto;
+      width: 100%;
+  }
+
+  .see-all,
+  .view-all {
+    position: static;
+    display: block;
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  
+  .expert-block {
+    height: auto;
+    padding: 20px;
+    border: none;
+    width: 95%;
+    margin: 20px auto;
+    position: static;
+  }
+
+  .a1, .a2, .a3 { display: none; }
+
+  .a4 {
+    position: static;
+    transform: none;
+    margin: 0 auto 15px auto;
+    display: block;
+    width: 120px;
+    height: auto;
+  }
+
+  .text-expert {
+    position: static;
+    margin: 0;
+    max-width: 100%;
+    font-size: 16px;
+    text-align: center;
+  }
+
+ 
+  .rectangle1 {
+    height: auto;
+    padding: 20px 5%;
+    margin-top: 20px;
+    width: 100%;
+    position: static;
+  }
+
+  .rectangle2,
+  .rectangle3 {
+    width: 100%;
+    margin: 15px 0;
+    height: auto;
+    padding: 15px;
+    position: static;
+    display: block;
+  }
+
+  .d1, .d2, .c1, .c2, .text5, .text6, .text7 {
+    position: static;
+    transform: none;
+    margin: 10px auto;
+    max-width: 100%;
+    display: block;
+    text-align: center;
+  }
+
+  img.d1, img.d2, img.c1, img.c2 {
+    width: 100%;
+    height: auto;
+  }
+
+  
+  .reviews-section {
+    height: auto;
+    padding: 20px 5%;
+    overflow: hidden;
+    width: 100%;
+    position: static;
+  }
+
+  .bg-layer, .k1, .k2, .o1 { display: none; }
+
+  .brand-logo,
+  .section-title,
+  .rating-average,
+  .rating-stars {
+    position: static;
+    text-align: center;
+    margin: 5px auto;
+  }
+
+  .brand-logo {
+    width: 150px;
+    height: auto;
+  }
+
+  .testimonial-card {
+    position: static;
+    margin: 30px auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .author-name,
+  .review-text,
+  .testimonial-index {
+    position: static;
+    margin: 10px 0;
+    max-width: 100%;
+  }
+
+  
+  .o2, .o3 {
+    position: static;
+    transform: none;
+    margin: 15px auto;
+    display: block;
+    width: 0%;
+    height: auto;
+    z-index: 1;
+  }
+
+  
+  .rectangle6, .l1 {
+    position: static;
+    height: auto;
+    padding: 20px 5%;
+  }
+
+  .l1 { width: 100%; height: auto; }
+
+  .newsletter-inline {
+    position: static;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .ni-row {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .ni-input, .ni-btn {
+    transform: none;
+    width: 100%;
+    flex: 1 1 100%;
+    padding: 10px 15px;
+  }
+  .ni-btn {
+  padding: 8px 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newsletter-inline .ni-btn {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  width: auto !important;
+  padding: 8px 10px !important;
+}
+
+.newsletter-inline .ni-btn__img {
+  width: 180px !important;
+  height: 50px !important;
+  max-width: none !important;
+  object-fit: contain;
+  display: inline-block;
+  margin: 0;
+}
+
+  
+  .ni-btn__img {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+  
+  .ni-consent { margin-top: 15px; }
+
+  .ni-checkbox { transform: none; }
+
+  
+  .cs-section {
+    transform: none;
+    padding: 20px 5%;
+    width: 100%;
+    position: static;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+
+  .cs-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  
+  .footer-wrapper {
+    padding: 20px 5%;
+    width: 100%;
+    position: static;
+  }
+
+  .footer-container {
+    padding: 0;
+  }
+
+  .footer-columns {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .footer-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .footer-column ul {
+    text-align: center;
+    padding: 0;
+  }
+
+  .footer-column .footer-brand,
+  .footer-column h3 {
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .footer-column .footer-brand { margin-left: auto; }
+
+  .footer-assurance {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .footer-methods {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .social-links {
+    margin: 15px auto;
+    justify-self: center;
+    align-self: center;
+    padding: 0;
+  }
+
+  .legal-row {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+}
+
